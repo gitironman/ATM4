@@ -7,8 +7,8 @@ name = None
 
 sftime = str(time.strftime("%Y{}%m{}%d{}%H{}").format('年', '月', '日', '时'))
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
-db_path = BASE_DIR + '\\db\\'
-log_path = BASE_DIR + '\\log\\'
+db_path = BASE_DIR + '/db/'
+log_path = BASE_DIR + '/log/'
 register_path = os.path.join(db_path, 'register')
 product_path = os.path.join(db_path, 'product_info')
 logfile_boss = os.path.join(log_path, ('boss_' + sftime + '.log'))
